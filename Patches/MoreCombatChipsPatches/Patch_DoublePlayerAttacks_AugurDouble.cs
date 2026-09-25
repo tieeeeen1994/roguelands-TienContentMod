@@ -13,7 +13,7 @@ namespace TienContentMod.Patches.MoreCombatChipsPatches
 {
     [HarmonyPatch(typeof(DoublePlayerAttacks))]
     [HarmonyPatch("AugurDouble")]
-    [HarmonyGadget(MoreCombatChips.GADGET_NAME)]
+    [HarmonyGadget(MoreCombatChips.GADGET_NAME, "BigNumberCore")]
     public static class Patch_DoublePlayerAttacks_AugurDouble
     {
         private static MethodInfo UpdateTrackerMethod

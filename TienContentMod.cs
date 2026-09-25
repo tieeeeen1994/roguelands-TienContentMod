@@ -13,10 +13,10 @@ namespace TienContentMod
     public static class TienContentMod
     {
         public const string MOD_NAME = "Tien Content Mod";
-        public const string MOD_VERSION = "2.2.2"; // Set this to the version of your mod.
-        public const string MOD_DESCRIPTION = "WIP";
+        public const string MOD_VERSION = "2.2.3"; // Set this to the version of your mod.
+        public const string MOD_DESCRIPTION = "Adds more content to the game as well as fixes.";
         public const string MOD_AUTHOR = "Tien";
-        public const string COPYRIGHT = "© 2020 Tien. All rights reserved.";
+        public const string COPYRIGHT = "© 2026 Tien. All rights reserved.";
 
         internal static bool TEST =
 #if TEST
